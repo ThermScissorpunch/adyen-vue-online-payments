@@ -93,6 +93,7 @@ async function initCheckout(ref) {
       locale: "en_US",
       environment: "test",
       showPayButton: true,
+      openFirstPaymentMethod: false,
       paymentMethodsConfiguration: {
         ideal: {
           showImage: true,
